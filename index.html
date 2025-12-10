@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="icon" href="" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=League+Spartan:wght@100..900&family=Rubik+80s+Fade&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <a href="#" class="logo rubik" style="color: #c0c0c0">My Portfolio</a>
+      <table class="nav-table">
+        <tr class="cinzel">
+          <th><a href="#about">About Me</a></th>
+          <th><a href="#gallery">Gallery</a></th>
+        </tr>
+      </table>
+    </nav>
+
+    <div class="container b1" id="about">
+      <header class="cinzel">
+        <h1>Who am I?</h1>
+      </header>
+
+      <section class="profile">
+        <img
+          class="avatar"
+          src="assets/Girl_With_The_Pearl_Earring_(1665).jpg"
+          alt="Jillian"
+        />
+
+        <div class="profile-text">
+          <p class="league">
+            Hello my name is Jillian, welcome to my portfolio Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Incidunt ipsam voluptatem,
+            commodi deleniti dignissimos minus possimus consectetur error,
+            placeat perferendis delectus illum distinctio modi eligendi. Facere
+            totam magnam vitae perferendis?
+          </p>
+          <div class="socials league">
+            <h3>My socials are:</h3>
+            <a href="https://www.instagram.com/jn.s.h/" target="_blank"
+              ><img src="assets/instagram-icon.png" width="20px" />Instagram</a
+            >
+            <a
+              href="https://www.roblox.com/users/588022816/profile"
+              target="_blank"
+              ><img src="assets/roblox-icon.png" width="25px " />Roblox</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="biography">
+        <table>
+          <h1 class="cinzel">Biography</h1>
+          <tr>
+            <th>Name:</th>
+            <td>Jillian Sheryl Harianto</td>
+          </tr>
+          <tr>
+            <th>Age:</th>
+            <td>15</td>
+          </tr>
+          <tr>
+            <th>Gender:</th>
+            <td>Female</td>
+          </tr>
+          <tr>
+            <th>Occupation:</th>
+            <td>Student</td>
+          </tr>
+        </table>
+      </section>
+
+      <section class="media b1" id="gallery">
+        <h1 class="cinzel">Gallery</h1>
+
+        <div class="slider-container">
+          <button class="btn prev">&lsaquo;</button>
+          <div class="slider-gap">
+            <div class="slider">
+              <img class="slide" src="assets/OIP.jpg" />
+              <img class="slide" src="assets/OIP.jpg" />
+              <img class="slide" src="assets/OIP.jpg" />
+              <img class="slide" src="assets/OIP.jpg" />
+            </div>
+          </div>
+
+          <button class="btn next">&rsaquo;</button>
+        </div>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
